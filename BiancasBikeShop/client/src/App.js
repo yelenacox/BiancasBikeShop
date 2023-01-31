@@ -7,7 +7,7 @@ import BikeDetails from './components/BikeDetails';
 import { getBikesInShopCount } from './bikeManager';
 
 function App() {
-  const [inventory, setInventory] = useState({count: 0})
+  const [inventory, setInventory] = useState()
   const [detailsBikeId, setDetailsBikeId] = useState(null)
 
   const getInventory = () => {
